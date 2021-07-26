@@ -187,7 +187,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                         listCheckin,
                                         DateTime.now().toIso8601String(),
                                         checkin.currentUser!);
-                                  } else {
+                                  }
+
+                                  if (checkin.currentUser!.checkinStatus == 1) {
                                     checkin.changeCheckinStatus(2);
                                     checkin.addItemCheckin(
                                         listCheckin,
@@ -195,10 +197,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                         checkin.currentUser!);
                                   }
 
-                                  checkin.addItemCheckin(
-                                      listCheckin,
-                                      DateTime.now().toIso8601String(),
-                                      checkin.currentUser!);
+                                  // checkin.addItemCheckin(
+                                  //     listCheckin,
+                                  //     DateTime.now().toIso8601String(),
+                                  //     checkin.currentUser!);
                                 },
                                 child: Container(
                                   padding: EdgeInsets.all(15),
