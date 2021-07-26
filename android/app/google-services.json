@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679779973632",
+    "project_id": "worker-attendancedemo",
+    "storage_bucket": "worker-attendancedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679779973632:android:395e62dd38b56460a876e5",
+        "android_client_info": {
+          "package_name": "com.workers_attendance.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679779973632-c9s3d09kf9a0ep94rgkt0pe2kv5r2viq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzBSTJFVgvf4fGrbjYUOWFL648W5UgkqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679779973632-c9s3d09kf9a0ep94rgkt0pe2kv5r2viq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
